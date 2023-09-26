@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.gallery h2{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 35px;
+    border-bottom: 4px solid indigo;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.605);
+    padding-bottom: 20px;
+}
+
+.container{
+    font-size: 0;/* No estamos usando display flex*/
+}
+
+.container img{
+    width: 30%;
+    height: 280px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.753);
+}
+
+footer h3{
+  /*   text-align: center ; */
+    margin: 20px 0;
+}
